@@ -1,11 +1,7 @@
-Here’s your content converted into a well-structured **Markdown (`.md`)** format, ready to be used in a `README.md` file or similar:
-
-````markdown
 # Multi-Armed Bandit Algorithms: Exploration vs. Exploitation
 
 This project implements and compares three classic algorithms for solving the Multi-Armed Bandit (MAB) problem: **Epsilon-Greedy**, **Upper Confidence Bound (UCB)**, and **Thompson Sampling**. The goal is to understand how these algorithms balance the trade-off between exploring new options (arms) and exploiting the best-known option to maximize cumulative reward over time.
 
----
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -15,7 +11,6 @@ This project implements and compares three classic algorithms for solving the Mu
 - [Experiment Analysis](#experiment-analysis)
 - [Requirements](#requirements)
 
----
 
 ## Project Description
 
@@ -26,7 +21,6 @@ The Multi-Armed Bandit problem is a classic reinforcement learning scenario wher
 
 This project provides Python implementations of three popular bandit algorithms and a framework to simulate their performance against a set of arms with predefined true reward probabilities.
 
----
 
 ## Algorithms Implemented
 
@@ -39,7 +33,6 @@ This project provides Python implementations of three popular bandit algorithms 
 - **Thompson Sampling**  
   A Bayesian approach. For each arm, samples from a posterior distribution (e.g., Beta for Bernoulli arms), and chooses the arm with the highest sample. Naturally balances exploration and exploitation using uncertainty.
 
----
 
 ## File Structure
 
@@ -61,7 +54,6 @@ The project is organized into the following Python files:
 - **`main.py`**  
   The main script that initializes agents, runs simulations, prints metrics (total rewards, arm pulls), and generates plots.
 
----
 
 ## How to Run
 
@@ -75,7 +67,6 @@ To run the experiment and visualize the results:
 
    ```bash
    pip install numpy matplotlib
-````
 
 3. **Run the script**
    Navigate to the directory and execute:
@@ -90,7 +81,6 @@ To run the experiment and visualize the results:
    * Cumulative reward over time
    * Average reward per step for each algorithm
 
----
 
 ## Experiment Analysis
 
@@ -122,7 +112,6 @@ Each algorithm runs for **2000 steps**.
 * **Comparison**:
   Often rivals or exceeds UCB. Adaptively explores based on posterior uncertainty.
 
----
 
 ## Overall Comparison
 
@@ -135,7 +124,6 @@ Each algorithm runs for **2000 steps**.
 * **Plots** confirm:
   UCB and Thompson Sampling show faster rises and maintain higher average rewards.
 
----
 
 ## Requirements
 
